@@ -1,0 +1,31 @@
+,Quantity,Hardware,Interface,Bits,Hex Charachters
+0,year (timestamp),RTC,I2C,12,3
+1,month (timestamp),RTC,I2C,4,1
+2,date (timestamp),RTC,I2C,8,2
+3,hour (timestamp),RTC,I2C,8,2
+4,minute (timestamp),RTC,I2C,8,2
+5,seconds (timestamp),RTC,I2C,8,2
+6,Controls Board Temp,Controls Board,I2C,12,3
+7,Controls Reserved,Controls Board,I2C,12,3
+8,Controls Reserved,Controls Board,I2C,12,3
+9,Controls Reserved,Controls Board,I2C,12,3
+10,IMU X,Controls Board,I2C,12,3
+11,IMU Y,Controls Board,I2C,12,3
+12,IMU Z,Controls Board,I2C,12,3
+13,IMU Temp,Controls Board,I2C,12,3
+14,Battery Voltage,EPS Board,TBD,10,3
+15,Battery Current,EPS Board,TBD,10,3
+16,Battery Bus Current,EPS Board,TBD,10,3
+17,Battery Current Direction,EPS Board,TBD,10,3
+18,Battery Temperature,EPS Board,TBD,10,3
+19,Transmitter Current,Comms Board,TBD,10,3
+20,Receiver Current,Comms Board,TBD,10,3
+21,Beacon Current,Comms Board,TBD,10,3
+22,Boot Count,OBC Flash Memory,I2C,12,3
+23,year (boot time),RTC,I2C,12,3
+24,month (boot time),RTC,I2C,4,1
+25,date (boot time),RTC,I2C,8,2
+26,hour (boot time),RTC,I2C,8,2
+27,minute (boot time),RTC,I2C,8,2
+28,OBC Temperature,OBC,I2C,12,3
+29,EPS Board Temperature,Comms Board,TBD,12,3
